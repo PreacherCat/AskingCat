@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="题号"
+        android:textSize="20sp"
+        android:id="@+id/onechoose_3box_Positon"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="问题内容"
+        android:textSize="20sp"
+        android:layout_gravity="left"
+        android:id="@+id/onechoose_3box_Text"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:id="@+id/onechoose_3box_radiogroup">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="草"
+            android:id="@+id/onechoose_3box_radio_1" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/onechoose_3box_radio_2"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/onechoose_3box_radio_3"/>
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/onechoose_3box_lastButton"
+            android:text="上一项"
+            android:layout_marginRight="45dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/onechoose_3box_nextButton"
+        android:text="下一项"/>
+
+    </LinearLayout>
+</LinearLayout>

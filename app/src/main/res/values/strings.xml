@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">铁锈问卷猫</string>
+    <string name="title_activity_choose_questionnaire">ChooseQuestionnaire</string>
+</resources>

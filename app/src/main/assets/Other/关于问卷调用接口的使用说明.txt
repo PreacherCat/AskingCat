@@ -1,0 +1,18 @@
+通常用RunMethod这个键来执行软件内部的一些方法
+目前能执行的方法有
+LogSomething
+BodyPath与turretpath的set方法
+setAllbodyImage 这个方法参数随便写，但必须要有
+
+RunMethod的值为:
+执行时刻,执行方法:参数列表
+//执行时刻：0为点击下一项按钮时执行
+//三选框中123对应选择其中三个框时执行
+//string和float中1为输入时执行
+//参数列表用","分开
+//参数如果为特殊值的话优先调用特殊值
+//目前特殊值为UserInputWords
+
+例子:
+RunMethod=0,LogSomething:草
+//在点击下一项的时候调用LogSomething方法输出草
